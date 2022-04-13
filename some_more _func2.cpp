@@ -28,6 +28,10 @@ int main()
    cout<<__builtin_popcount(n)<<"\n";  // this is only for the integes but if we have long long
    long long i=164786578687;
   cout<<__builtin_popcountll(i)<<"\n";
+    // built in pop count coutns the number of bits in the number whereas bitset count is different 
+     int a=__builtin_popcount(2);
+  cout<<a<<"\n";
+  // recall the differene between biiset count function and builtin popcount 
     // map functions use unordered map when there si no need with the sorting 
     // make sure to use ll fo r long long 
   // next permutation 
